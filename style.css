@@ -14,7 +14,7 @@ body{
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff; /*text colour*/
-    margin: 50px auto 50px; /*left right auto top 100 bottom 0*/
+    margin: 25px auto 25px; /*left right auto top 100 bottom 0*/
     border-radius: 20px; /*make border round*/
     padding: 40px 35px; 
     text-align: center;
@@ -92,4 +92,20 @@ body{
 .humidity, .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.title {
+    margin-bottom: 20px;
 }
